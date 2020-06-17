@@ -1,5 +1,5 @@
 # Salary-Report
-*JavaFX*
+### *Java | JavaFX*
 
 ### Summary
 This program creates a salary report based on a given csv text file
