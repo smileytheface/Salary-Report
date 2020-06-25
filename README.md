@@ -12,7 +12,7 @@ Insert path to csv file in first box. Then, select the folder you would like the
 
 Here's what the salary report looks like:
 
-![Salary_Report](https://github.com/smileytheface/Salary-Report/blob/master/Salary_Report.PNG)
+<img alt="Salary Report" src="https://github.com/smileytheface/Salary-Report/blob/master/Salary_Report.PNG" height="500">
 
 Here's a link to a video showing the program in action!
 https://youtu.be/bnV3ypnpr8I
