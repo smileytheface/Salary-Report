@@ -15,16 +15,19 @@ import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.Scanner;
 import java.util.Date;
+import java.text.SimpleDateFormat;
 
 public class SalaryReport {
 	
 	public static void generateReport(String[] file) {
 		final String CSVFile = file[0];
-		final String ReportFile = file[1] + "/2019_Faculty_Report.txt";
+		final String ReportFile = file[1] + "/Faculty_Report.txt";
 		String name = file[2];
 		int staffCount = 1000;
 		Date date = new Date();
-		
+		SimpleDateFormat yearFormatter = new SimpleDateFormat("yyyy");
+		String year = yearFormatter.format(date);
+
 		File inFile = new File(CSVFile);
 		File outFile = new File(ReportFile);
 		
@@ -81,7 +84,7 @@ public class SalaryReport {
 			 */
 			
 			//heading
-			output.println("Faculty Salary Report (2019)");
+			output.println("Faculty Salary Report (" + year + ")");
 			output.println("Prepared by: " + name);
 			output.println("Prepared on: " + date.toString());
 			
